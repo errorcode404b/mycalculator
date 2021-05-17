@@ -1,38 +1,119 @@
-.App {
+/* .d-flex div {
+  padding: 1rem;
+  background-color: #335de5;
+  border: 1px solid #fff;
+  color: #fff;
   text-align: center;
+} */
+
+
+.container {
+ margin-left: 100px;
+ padding-left: 190px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.justify-content-start div {
+  padding: 1rem;
+  background-color: #a3a3a3da;
+  /* border: 1px solid #fff; */
+  color: #fff;
+  text-align: center;
+  align-content: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-left: 32px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.justify-content-center1 div {
+  padding: 1rem;
+  background-color: #a3a3a3da;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-left: 5px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.justify-content-center2 div {
+  padding: 1rem;
+  background-color: #a3a3a3da;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-left: 5px
 }
 
-.App-link {
-  color: #61dafb;
+.justify-content-end1 div {
+  padding: 1rem;
+  background-color: #35913c;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-left: 5px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.justify-content-end2 div {
+  padding: 1rem;
+  background-color: #a71717da;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  justify-content: flex-start;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-top: 5px;
+  margin-left: 5px
+}
+
+
+.result {
+  height: 60px;
+  background-color: #bbb;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+
+.formCenter {
+  padding-left: 300px;
+
 }
